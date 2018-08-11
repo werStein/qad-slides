@@ -1,0 +1,10 @@
+<div class="content-container">
+
+  <app-slide></app-slide>
+
+</div>
+
+<button *ngIf="!isInFullscreen" class="fullscreen-button"
+mat-raised-button (click)="onFullscreenButtonClicked()">Go Fullscreen!</button>
+<button *ngIf="isInFullscreen" class="fullscreen-button"
+mat-raised-button (click)="onFullscreenButtonClicked()">Leave Fullscreen!</button>

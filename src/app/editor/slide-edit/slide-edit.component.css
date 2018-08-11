@@ -1,0 +1,12 @@
+ .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #ccc;
+ }
+
+ .text {
+  min-width: 5%;
+  min-height: 5%;
+ }

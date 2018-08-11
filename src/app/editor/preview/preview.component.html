@@ -1,0 +1,3 @@
+<div class="container" *ngIf="presentation">
+  <app-slide-preview *ngFor="let slide of presentation.slides" [slide]="slide"></app-slide-preview>
+</div>

@@ -1,0 +1,5 @@
+<div class="container" *ngIf="slide">
+  <div class="text" contenteditable="true" (focus)="onTextFocused()" (blur)="onTextUnfocused($event)" #text>
+    {{slide.text}}
+  </div>
+</div>
